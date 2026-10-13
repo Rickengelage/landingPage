@@ -80,7 +80,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 182px 0px;
     background-color: gray;
 }
 .quote-source {
@@ -93,7 +93,7 @@ body {
 .action {
    display: flex;
    justify-content: center;
-   padding: 100px 0px;
+   padding: 200px 0px;
    background-color: rgb(24, 24, 24);
 }
 .box-container {
