@@ -1,3 +1,8 @@
 body {
     box-sizing: border-box;
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    background-color: #1F2937;
 }
