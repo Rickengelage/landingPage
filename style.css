@@ -10,8 +10,10 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    margin: 16px;
-    padding: 0px 150px;
+    margin: auto;
+    max-width: 1200px;
+    padding:  24px 0;
+    
 }
 .links {
     padding: 0;
@@ -27,8 +29,12 @@ body {
 /* hero section */
 .hero-container {
     display: flex;
-    justify-content: space-around;
-    padding-top: 120px;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+    padding: 100px 0;
+    gap: 64px;
 }
 .hero-text {
     display: flex;
@@ -53,6 +59,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding: 100px 0px;
 }
 .programs-content {
     display: flex;
@@ -67,4 +74,13 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 25px;
+}
+/* quote section */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: gray;
 }
