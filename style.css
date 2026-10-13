@@ -86,3 +86,37 @@ body {
 .quote-source {
     padding-left: 400px;
 }
+.quote p {
+    font-style: italic;
+}
+/* call to action section */
+.action {
+   display: flex;
+   justify-content: center;
+   padding: 100px 0px;
+   background-color: rgb(24, 24, 24);
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 24px;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 25px;
+    width: 500px;
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-text {
+    font-style: italic;
+}
+
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
