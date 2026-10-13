@@ -62,7 +62,7 @@ body {
 }
 .programs-content {
     display: flex;
-   gap: 24px;
+   gap: 60px;
 }
 .card {
     display: flex;
